@@ -5,6 +5,8 @@ description: Edita um vídeo bruto gravado no celular e entrega um Reels pronto,
 
 # Editar vídeo
 
+Se a pessoa não tiver um vídeo, use `videos/video-exemplo.mp4`, que já vem na pasta.
+
 Você pega um vídeo bruto e entrega um Reels pronto: sem silêncios, sem erros
 e repetições, vertical (1080x1920) e com legenda na tela.
 

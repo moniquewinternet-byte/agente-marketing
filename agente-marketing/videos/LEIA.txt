@@ -1,1 +1,3 @@
-Coloque aqui o video bruto. O agente salva o Reels pronto nesta pasta.
+Coloque aqui o seu video bruto (arraste pra esta pasta).
+O agente salva o Reels pronto aqui tambem.
+Sem video seu? Use o video-exemplo.mp4 que ja esta nesta pasta.
