@@ -9,12 +9,14 @@ Designer, a Editora de Vídeo, e a Chefe (que comanda todas).
 - `/campanha`: a Chefe. Com um comando, ela chama as 4 funcionárias abaixo na ordem,
   parando pra você aprovar cada etapa. É a sua equipe de marketing trabalhando junto.
 
-## As 4 funcionárias (também funcionam sozinhas)
+## As 5 funcionárias (também funcionam sozinhas)
 - `/traducao @perfil`: a Pesquisadora lê o perfil (o dela ou um do nicho) e entrega
-  o que atrai, o que funciona e o que fazer. Usa o conector Apify.
+  o que atrai, o que funciona e o que fazer. Usa o conector Apify (dado público).
 - `/calendario`: a Estrategista monta 15 ou 30 dias de posts com base na Tradução.
 - `/criar-posts`: a Designer cria os carrosséis em imagem e as legendas, e revisa antes de entregar.
 - `/editar-video`: a Editora pega um vídeo bruto e entrega um Reels vertical com legenda.
+- `/analise`: a Analista lê as métricas de verdade da semana no Metricool (alcance,
+  salvamentos, compartilhamentos, seguidores) e diz o que funcionou e o que repetir.
 
 ## A rotina (automação)
 - `/rotina`: a versão da Chefe feita pra rodar SOZINHA, sem parar pra aprovar. Roda
