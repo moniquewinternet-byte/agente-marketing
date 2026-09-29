@@ -111,10 +111,13 @@ code{background:var(--bg);border:1px solid var(--linha);border-radius:6px;paddin
 <span class="cmd">/campanha</span>
 </div>
 <div class="card">
-<h2>A equipe trabalha sozinha</h2><div class="t"></div>
-<p class="sub">Tem uma versão da Chefe feita pra rodar sozinha: a <code>/rotina</code>. Ela faz pesquisa, calendário e os primeiros posts sem parar pra perguntar, deixa tudo como rascunho na pasta, e escreve um resumo. Você abre depois e aprova.</p>
-<p class="sub" style="margin-top:12px">Pra deixar no automático, você pede ao Claude Code pra criar uma tarefa agendada que roda a <code>/rotina</code> dia 1º e dia 15 (igual ao Encontro 01). Antes, preencha uma vez o arquivo <code>rotina-config.md</code> com o seu perfil e os do nicho.</p>
-<p class="sub" style="margin-top:12px"><b>Importante:</b> a tarefa só roda com o computador ligado e o Claude Code aberto naquela hora. Não é na nuvem. Se estiver desligado, ela roda na próxima vez que você abrir.</p>
+<h2>Deixe a equipe no automático</h2><div class="t"></div>
+<p class="sub">A <code>/rotina</code> é a versão da Chefe que roda sozinha: faz pesquisa, calendário e os primeiros posts sem parar pra perguntar, deixa tudo como rascunho na pasta e escreve um resumo. Dois passos:</p>
+<p class="sub" style="margin-top:14px"><b>1. Testar agora:</b> ela trabalha sozinha e deixa os rascunhos na pasta. Espera terminar (leva uns minutos); não mande de novo.</p>
+<span class="cmd">/rotina</span>
+<p class="sub" style="margin-top:14px"><b>2. Deixar ativa:</b> agende pra rodar sozinha, dia 1º e dia 15.</p>
+<span class="cmd">crie uma tarefa agendada que rode /rotina todo dia 1 e dia 15 às 9h</span>
+<p class="sub" style="margin-top:14px"><b>Importante:</b> só roda com o computador ligado e o Claude Code aberto naquela hora — não é na nuvem. Nada é publicado sozinho: você abre e aprova.</p>
 </div>
 <div class="card">
 <h2>Dever de casa</h2><div class="t"></div>
