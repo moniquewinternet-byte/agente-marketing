@@ -24,10 +24,17 @@ Leia o arquivo `rotina-config.md` na raiz da pasta, se existir. Ele diz:
 - até 3 perfis do nicho pra comparar;
 - 15 ou 30 dias, e quantos posts por semana;
 - foco (vender algo ou crescer).
-Se o arquivo não existir ou vier incompleto, use estes padrões, sem perguntar:
-- perfil: o da Tradução mais recente em `pesquisa/`;
+IMPORTANTE: o arquivo vem com valores de EXEMPLO (`@seu_perfil`, `@perfil1`,
+`@perfil2`, `@perfil3`). Trate esses valores de exemplo como "não preenchido" —
+nunca tente ler um perfil chamado "@seu_perfil".
+Quando faltar o perfil (arquivo não existe, ou ainda está com o exemplo), use estes
+padrões, sem perguntar:
+- perfil: o da Tradução mais recente em `pesquisa/` (a que ela acabou de rodar);
 - 15 dias, 3 posts por semana, foco em crescer;
 - perfis do nicho: os que já apareceram na última Tradução, se houver.
+Se não houver nenhuma Tradução em `pesquisa/` e o perfil não estiver preenchido,
+não pare pedindo: escreva no resumo "não achei um perfil pra usar; preencha o
+rotina-config.md ou rode /traducao antes" e encerre sem quebrar.
 Anote no resumo qual configuração você usou.
 
 ## Passo 1: pesquisa (a Pesquisadora)
