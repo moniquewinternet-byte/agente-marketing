@@ -22,7 +22,8 @@ Se algum passo técnico der erro, diga em uma linha o que fazer, sem termo difí
 Dê as boas-vindas em uma linha e diga o que vai acontecer: "vou passar por 4
 etapas com você (pesquisa, calendário, posts e vídeo), e paro pra você aprovar
 cada uma". Pergunte de uma vez, em linguagem simples, TUDO que vai precisar:
-1. Qual o @ do seu Instagram e o de até 3 perfis do seu nicho? (precisam ser públicos)
+1. Qual o @ do seu Instagram? E o de até 3 perfis que VOCÊ escolhe pra comparar:
+   concorrentes de verdade ou perfis que você admira no seu nicho (precisam ser públicos).
 2. Quer planejar 15 ou 30 dias, e quantos posts por semana? (se ela não souber, sugira 3)
 3. Tem algo pra vender no período, ou o foco é crescer?
 4. Quer que eu leia também os comentários dos posts que mais bombaram? (deixa a
