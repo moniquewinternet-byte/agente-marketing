@@ -17,8 +17,13 @@ Designer, a Editora de Vídeo, e a Chefe (que comanda todas).
 - `/editar-video`: a Editora pega um vídeo bruto e entrega um Reels vertical com legenda.
 
 ## A rotina (automação)
-Tarefa agendada todo dia 1º e dia 15: a Chefe roda a campanha (pesquisa, calendário e
-posts) e deixa tudo pronto na pasta. A dona só abre e aprova.
+- `/rotina`: a versão da Chefe feita pra rodar SOZINHA, sem parar pra aprovar. Roda
+  pesquisa, calendário e os 3 primeiros posts, deixa tudo como rascunho na pasta e
+  escreve um resumo pra dona aprovar depois. Lê o `rotina-config.md` pra saber perfil,
+  dias e foco. É esta (não a `/campanha`) que a tarefa agendada deve chamar, porque a
+  `/campanha` para pra pedir aprovação e travaria rodando sozinha.
+- Para agendar: crie no Claude Code uma tarefa que rode `/rotina` no dia 1º e no dia 15.
+  Lembre: a tarefa só dispara com o computador ligado e o app aberto naquela hora.
 
 ## Regras que valem pra tudo
 - Nunca invente dado, número, depoimento ou nome. Quando faltar, escreva `[a confirmar]` e siga.
