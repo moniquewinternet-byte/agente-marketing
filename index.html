@@ -42,7 +42,8 @@ code{background:var(--bg);border:1px solid var(--linha);border-radius:6px;paddin
 <button class="tab" onclick="mostra(2,this)"><span class="n">2</span>🗓️ Estrategista</button>
 <button class="tab" onclick="mostra(3,this)"><span class="n">3</span>🎨 Designer</button>
 <button class="tab" onclick="mostra(4,this)"><span class="n">4</span>🎬 Editora</button>
-<button class="tab" onclick="mostra(5,this)"><span class="n">5</span>👑 A Chefe</button>
+<button class="tab" onclick="mostra(5,this)"><span class="n">5</span>📊 Analista</button>
+<button class="tab" onclick="mostra(6,this)"><span class="n">6</span>👑 A Chefe</button>
 </div>
 
 <!-- 0 -->
@@ -53,11 +54,12 @@ code{background:var(--bg);border:1px solid var(--linha);border-radius:6px;paddin
 <a class="btn" href="https://github.com/moniquewinternet-byte/agente-marketing/raw/main/agente-marketing.zip">⬇ Baixar agente-marketing.zip</a>
 </div>
 <div class="card">
-<h2>2. Ligar o Apify (você faz, uma vez)</h2><div class="t"></div>
-<p class="sub">O Apify é o único conector obrigatório: é a linha que deixa a equipe ler o Instagram. Conector se liga com o seu login, uma vez. O Claude não faz isso por você.</p>
-<ol><li>Configurações → Conectores → Procurar.</li>
-<li>Busca <b>Apify</b> e clica em Conectar.</li>
-<li>Cria a conta grátis (pode entrar com o Google).</li></ol>
+<h2>2. Ligar os conectores (você faz, uma vez)</h2><div class="t"></div>
+<p class="sub">Conector se liga com o seu login, uma vez. O Claude não faz isso por você. Em Configurações → Conectores → Procurar:</p>
+<p class="sub" style="margin-top:10px"><b>Apify</b> (obrigatório): a linha que deixa a equipe ler o Instagram. Busca Apify → Conectar → cria a conta grátis (pode entrar com o Google).</p>
+<p class="sub" style="margin-top:10px"><b>Metricool</b> (pra Analista): mostra as métricas de verdade da sua conta (alcance, salvamentos). São dois passos:</p>
+<ol style="margin-top:6px"><li>Cria a conta grátis no site <b>metricool.com</b> e conecta o seu Instagram lá dentro (precisa ser conta profissional — comercial ou de criador).</li>
+<li>No Claude: Configurações → Conectores → Procurar → <b>Metricool</b> → Conectar (entra com a conta que você criou).</li></ol>
 </div>
 <div class="card">
 <h2>3. Preparar o vídeo (o agente faz)</h2><div class="t"></div>
@@ -106,13 +108,30 @@ code{background:var(--bg);border:1px solid var(--linha);border-radius:6px;paddin
 <!-- 5 -->
 <div class="panel">
 <div class="card">
+<h2>📊 A Analista</h2><div class="t"></div>
+<p class="sub">"Me diz como foi a semana, e eu te digo o que repetir." Lê as métricas de verdade no Metricool — alcance, salvamentos, compartilhamentos, seguidores — e entrega um relatório curto: o post campeão, por que ele espalhou e o que fazer na próxima semana.</p>
+<span class="cmd">/analise</span>
+<p class="sub" style="margin-top:14px"><b>Deixe no automático:</b> peça pra rodar toda sexta e você recebe o relatório da semana sem pedir.</p>
+<span class="cmd">crie uma tarefa agendada que rode /analise toda sexta às 18h</span>
+<p class="sub" style="margin-top:14px">Precisa do Metricool ligado (passo 2) e de conta profissional no Instagram. É leitura: não muda nada na sua conta.</p>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="panel">
+<div class="card">
 <h2>👑 A Chefe</h2><div class="t"></div>
 <p class="sub">"Você me pede a campanha do mês. Eu chamo a equipe toda." Com um comando, ela chama a Pesquisadora, a Estrategista, a Designer e a Editora, na ordem, parando pra você aprovar cada etapa.</p>
 <span class="cmd">/campanha</span>
 </div>
 <div class="card">
-<h2>A equipe trabalha sozinha</h2><div class="t"></div>
-<p class="sub">Uma tarefa agendada pro dia 1º e o dia 15: a Chefe roda a campanha sem você pedir. Você só abre e aprova.</p>
+<h2>Deixe a equipe no automático</h2><div class="t"></div>
+<p class="sub">A <code>/rotina</code> é a versão da Chefe que roda sozinha: faz pesquisa, calendário e os primeiros posts sem parar pra perguntar, deixa tudo como rascunho na pasta e escreve um resumo. Dois passos:</p>
+<p class="sub" style="margin-top:14px"><b>1. Testar agora:</b> ela trabalha sozinha e deixa os rascunhos na pasta. Espera terminar (leva uns minutos); não mande de novo.</p>
+<span class="cmd">/rotina</span>
+<p class="sub" style="margin-top:14px"><b>2. Deixar ativa:</b> agende pra rodar sozinha, dia 1º e dia 15.</p>
+<span class="cmd">crie uma tarefa agendada que rode /rotina todo dia 1 e dia 15 às 9h</span>
+<p class="sub" style="margin-top:14px"><b>Importante:</b> só roda com o computador ligado e o Claude Code aberto naquela hora — não é na nuvem. Nada é publicado sozinho: você abre e aprova.</p>
 </div>
 <div class="card">
 <h2>Dever de casa</h2><div class="t"></div>
