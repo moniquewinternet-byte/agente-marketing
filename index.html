@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agente de Marketing · Encontro 04</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@400;500;600&family=Doto:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4F6F9;--card:#fff;--txt:#1d2433;--sub:#5b6477;--azul:#0057B8;--lar:#FF6B2B;--rosa:#FF3E8A;--linha:#e3e7ee}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+h1{font-family:"Chakra Petch",sans-serif;font-size:32px;line-height:1.12;margin:0}
+.traco{height:4px;width:90px;border-radius:4px;margin:12px 0 4px;background:linear-gradient(90deg,var(--azul) 33%,var(--lar) 33% 66%,var(--rosa) 66%)}
+.sub{color:var(--sub);margin:6px 0 18px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:12px 0;position:sticky;top:0;background:var(--bg);z-index:5}
+.tab{flex:0 0 auto;border:none;background:var(--card);color:var(--sub);font:600 14px Inter,sans-serif;padding:11px 16px;border-radius:10px;cursor:pointer;box-shadow:0 2px 8px rgba(0,40,100,.06);white-space:nowrap}
+.tab .n{font:700 11px Doto,monospace;color:var(--lar);margin-right:6px}
+.tab.on{background:var(--azul);color:#fff}
+.tab.on .n{color:#cfe0ff}
+.panel{display:none}.panel.on{display:block}
+.card{background:var(--card);border-radius:14px;box-shadow:0 6px 24px rgba(0,40,100,.08);padding:22px 24px;margin:16px 0}
+h2{font-family:"Chakra Petch",sans-serif;font-size:22px;margin:0 0 4px}
+.card .t{height:3px;width:64px;border-radius:3px;margin:8px 0 14px;background:linear-gradient(90deg,var(--azul) 33%,var(--lar) 33% 66%,var(--rosa) 66%)}
+a.btn{display:inline-block;background:var(--azul);color:#fff;text-decoration:none;font-weight:600;padding:14px 26px;border-radius:10px}
+a.btn:hover{background:#00479a}
+ol,ul{margin:6px 0 0;padding-left:22px}li{margin:7px 0}
+code{background:var(--bg);border:1px solid var(--linha);border-radius:6px;padding:2px 8px;font-family:Doto,ui-monospace,monospace;font-size:15px;color:var(--azul)}
+.cmd{display:block;background:#0d1220;color:#eaf0ff;border-radius:8px;padding:14px 16px;margin:8px 0 2px;font-family:ui-monospace,monospace;font-size:15px}
+.rod{color:var(--sub);font-size:13px;margin-top:30px;text-align:center}
+</style>
+</head>
+<body><div class="wrap">
+
+<h1>Agente de Marketing</h1>
+<div class="traco"></div>
+<p class="sub">AGENTES NA PRÁTICA · ENCONTRO 04. A gente vai passando por cada etapa aqui em cima, junto.</p>
+
+<div class="tabs">
+<button class="tab on" onclick="mostra(0,this)"><span class="n">0</span>Comece aqui</button>
+<button class="tab" onclick="mostra(1,this)"><span class="n">1</span>🔎 Pesquisadora</button>
+<button class="tab" onclick="mostra(2,this)"><span class="n">2</span>🗓️ Estrategista</button>
+<button class="tab" onclick="mostra(3,this)"><span class="n">3</span>🎨 Designer</button>
+<button class="tab" onclick="mostra(4,this)"><span class="n">4</span>🎬 Editora</button>
+<button class="tab" onclick="mostra(5,this)"><span class="n">5</span>👑 A Chefe</button>
+</div>
+
+<!-- 0 -->
+<div class="panel on">
+<div class="card">
+<h2>1. Baixar o agente</h2><div class="t"></div>
+<p class="sub">Baixa e descompacta em Documentos (botão direito → Extrair tudo).</p>
+<a class="btn" href="https://github.com/moniquewinternet-byte/agente-marketing/raw/main/agente-marketing.zip">⬇ Baixar agente-marketing.zip</a>
+</div>
+<div class="card">
+<h2>2. Abrir no Claude Code</h2><div class="t"></div>
+<ol><li>Abre o Claude Code (o mesmo do Encontro 03).</li>
+<li>Abre a pasta <code>agente-marketing</code> que você extraiu.</li></ol>
+</div>
+<div class="card">
+<h2>3. Ligar o conector Apify (grátis)</h2><div class="t"></div>
+<ol><li>Configurações → Conectores → Procurar.</li>
+<li>Busca <b>Apify</b> e clica em Conectar.</li>
+<li>Cria a conta grátis (pode entrar com o Google).</li></ol>
+</div>
+</div>
+
+<!-- 1 -->
+<div class="panel">
+<div class="card">
+<h2>🔎 A Pesquisadora</h2><div class="t"></div>
+<p class="sub">"Me diz um perfil, e eu te digo o que funciona nele." Lê o seu Instagram (ou um do nicho): o que atrai, o que funciona e o que fazer.</p>
+<span class="cmd">/traducao @seu_perfil</span>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="panel">
+<div class="card">
+<h2>🗓️ A Estrategista</h2><div class="t"></div>
+<p class="sub">"Pego o que a Pesquisadora achou e monto o seu mês." 15 ou 30 dias de posts, cada um dizendo de onde veio a ideia.</p>
+<span class="cmd">/calendario</span>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="panel">
+<div class="card">
+<h2>🎨 A Designer</h2><div class="t"></div>
+<p class="sub">"Transformo o calendário em post pronto, com a sua cara." Carrossel em imagem e legenda. Ela confere o próprio trabalho antes de entregar.</p>
+<span class="cmd">/criar-posts</span>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="panel">
+<div class="card">
+<h2>🎬 A Editora de Vídeo</h2><div class="t"></div>
+<p class="sub">"Me dá o vídeo cru, eu te devolvo o Reels." Corta, deixa vertical e legenda. Na primeira vez, o Claude instala o que precisa: é só aprovar.</p>
+<span class="cmd">/editar-video</span>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="panel">
+<div class="card">
+<h2>👑 A Chefe</h2><div class="t"></div>
+<p class="sub">"Você me pede a campanha do mês. Eu chamo a equipe toda." Com um comando, ela chama a Pesquisadora, a Estrategista, a Designer e a Editora, na ordem, parando pra você aprovar cada etapa.</p>
+<span class="cmd">/campanha</span>
+</div>
+<div class="card">
+<h2>A equipe trabalha sozinha</h2><div class="t"></div>
+<p class="sub">Uma tarefa agendada pro dia 1º e o dia 15: a Chefe roda a campanha sem você pedir. Você só abre e aprova.</p>
+</div>
+<div class="card">
+<h2>Dever de casa</h2><div class="t"></div>
+<ul><li>Roda a Tradução em 3 perfis do seu nicho.</li>
+<li>Posta um dos posts que o agente criou.</li>
+<li>Edita e posta um Reels.</li>
+<li>Conta no grupo o que achou 💙</li></ul>
+</div>
+</div>
+
+<p class="rod">@moniquetecnologia · tecnologia na pratica. resultados na vida.</p>
+</div>
+<script>
+function mostra(i,btn){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('on'));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
+  btn.classList.add('on');
+  document.querySelectorAll('.panel')[i].classList.add('on');
+  window.scrollTo(0,0);
+}
+</script>
+</body></html>
