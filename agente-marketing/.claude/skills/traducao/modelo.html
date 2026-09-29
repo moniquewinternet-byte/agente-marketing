@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tradução do seu Instagram · @moniquetecnologia</title>
+<title>Tradução do seu Instagram · {{PERFIL}}</title>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@400;500;600&family=Doto:wght@700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#F4F6F9;--card:#fff;--txt:#1d2433;--sub:#5b6477;--azul:#0057B8;--lar:#FF6B2B;--rosa:#FF3E8A;--linha:#e3e7ee}
@@ -39,9 +39,10 @@ a{color:var(--azul)}
 </style>
 </head>
 <body><div class="wrap">
+<!-- MODELO: os {{campos}} sao preenchidos com os dados REAIS que o agente puxa do Apify. NUNCA publicar os numeros de exemplo. -->
 
 <div class="win"><div class="bar"><i></i><i></i><i></i><span>TRADUÇÃO DO SEU INSTAGRAM</span></div><div class="in">
-<h1>@moniquetecnologia</h1><div class="traco"></div>
+<h1>{{PERFIL}}</h1><div class="traco"></div>
 <p class="sub">Leitura de 29/09/2026: 50 posts (junho a setembro), visualizações de 43 reels, bio, link e 42 comentários dos 3 posts que mais bombaram. Dados públicos, puxados pelo Apify.</p>
 <p><span class="tag visto">VISTO</span> dado que aparece no perfil &nbsp; <span class="tag sup">SUPOSIÇÃO</span> leitura provável, a confirmar com você</p>
 <p class="sub">Fora do alcance: salvamentos, compartilhamentos, cliques no link, vendas e quem são os seguidores. Isso só os Insights do Instagram mostram.</p>
@@ -50,23 +51,23 @@ a{color:var(--azul)}
 <div class="win"><div class="bar"><i></i><i></i><i></i><span>01 · O QUE ATRAI E O QUE VENDE</span></div><div class="in">
 <h2>A dica traz gente. A venda fala com pouca gente.</h2><div class="traco"></div>
 <div class="nums">
-<div class="num"><b>4.866</b>mediana de visualizações dos 17 posts de dica de app e celular</div>
-<div class="num l"><b>857</b>mediana dos 18 posts de venda do workshop</div>
-<div class="num r"><b>1.888</b>mediana de todos os reels do perfil</div>
+<div class="num"><b>{{MEDIANA_DICA}}</b>mediana de visualizações dos 17 posts de dica de app e celular</div>
+<div class="num l"><b>{{MEDIANA_VENDA}}</b>mediana dos 18 posts de venda do workshop</div>
+<div class="num r"><b>{{MEDIANA_GERAL}}</b>mediana de todos os reels do perfil</div>
 </div>
 <table><tr><th>Assunto</th><th>Posts</th><th>Mediana</th><th>Faixa</th></tr>
-<tr><td>Dica de app e celular</td><td>17</td><td>4.866</td><td>976 a 503 mil</td></tr>
+<tr><td>Dica de app e celular</td><td>17</td><td>{{MEDIANA_DICA}}</td><td>976 a {{VIEWS_MAX}}</td></tr>
 <tr><td>Palestra e evento</td><td>4</td><td>4.014</td><td>2.051 a 5.978</td></tr>
 <tr><td>Vida pessoal</td><td>4</td><td>3.372</td><td>3.096 a 3.649</td></tr>
-<tr><td>IA na vida real</td><td>5</td><td>2.541</td><td>1.310 a 153 mil</td></tr>
+<tr><td>IA na vida real</td><td>5</td><td>2.541</td><td>1.310 a {{VIEWS_2}}</td></tr>
 <tr><td>Humor e opinião</td><td>2</td><td>2.282</td><td>1.125 a 3.439</td></tr>
-<tr><td>Venda do workshop</td><td>18</td><td>857</td><td>422 a 1.827</td></tr></table>
+<tr><td>Venda do workshop</td><td>18</td><td>{{MEDIANA_VENDA}}</td><td>422 a 1.827</td></tr></table>
 <p><span class="tag visto">VISTO</span> Posts fora da curva (5 vezes ou mais a mediana):</p>
 <ul>
-<li><b>267x</b> · "E você já sabia dessas dicas?" (22/07), dica da Apple, 503 mil</li>
-<li><b>81x</b> · "Poderia ser você organizando sua vida inteira no Claude" (27/09), 153 mil, 4 mil curtidas, 100 comentários</li>
-<li><b>49x</b> · enquete do Instagram (02/08), 92 mil</li>
-<li><b>32x</b> · repost das dicas (22/07), 60 mil</li>
+<li><b>{{MULT_1}}</b> · "E você já sabia dessas dicas?" (22/07), dica da Apple, {{VIEWS_MAX}}</li>
+<li><b>{{MULT_2}}</b> · "Poderia ser você organizando sua vida inteira no Claude" (27/09), {{VIEWS_2}}, 4 mil curtidas, 100 comentários</li>
+<li><b>{{MULT_3}}</b> · enquete do Instagram (02/08), 92 mil</li>
+<li><b>{{MULT_4}}</b> · repost das dicas (22/07), 60 mil</li>
 <li><b>5x</b> · Command + Q no Mac (10/07), 10 mil</li>
 </ul>
 <blockquote><b>O achado mais importante:</b> o post de 27/09 é o único que junta as duas coisas. Ele mostra a IA na vida real (seu pai organizando a vida no Claude) e termina vendendo o workshop. Teve 81 vezes a média, organicamente. É o formato que faz a ponte entre quem chega pela dica e quem compra.</blockquote>
@@ -123,19 +124,19 @@ a{color:var(--azul)}
 
 <div class="win"><div class="bar"><i></i><i></i><i></i><span>06 · QUEM COMENTA É QUEM COMPRA?</span></div><div class="in">
 <h2>Nas dicas comenta quem gosta de Apple. No post do Claude comenta quem quer usar.</h2><div class="traco"></div>
-<p><b>Na dica de 503 mil</b> <span class="tag visto">VISTO</span></p>
+<p><b>Na dica de {{VIEWS_MAX}}</b> <span class="tag visto">VISTO</span></p>
 <blockquote>"Eu com raiva de mim, pq tenho td misturado: celular iphone, tablet Samsung, note Dell"<br>"Tu sabe que dá pra desbloquear o MacBook com o Apple Watch, né?"</blockquote>
-<p><b>No post do Claude de 153 mil</b> <span class="tag visto">VISTO</span></p>
+<p><b>No post do Claude de {{VIEWS_2}}</b> <span class="tag visto">VISTO</span></p>
 <blockquote>"Meu Claude é tudo desorganizado, preciso organizar igual ao seu pai"<br>"Faz um projeto pra cruzar todos os exames!!!"<br>"Como está compartilhando seus dados de saúde, está abrindo mão da privacidade..."</blockquote>
 <p><span class="tag sup">SUPOSIÇÃO</span> O post do Claude trouxe as três coisas que viram venda: desejo ("preciso organizar igual"), pedido de conteúdo ("faz um projeto pra cruzar exames") e objeção ("e a privacidade?"). Cada uma é pauta.</p>
 </div></div>
 
 <div class="win"><div class="bar"><i></i><i></i><i></i><span>07 · O QUE TE DIFERENCIA APARECE?</span></div><div class="in">
 <h2>A prova mais forte está no post de outra pessoa.</h2><div class="traco"></div>
-<p><span class="tag visto">VISTO</span> No convite do Atlantic Hub (03/08), escrito pelo evento: "Implementou uma plataforma de aprendizagem para 110 mil funcionários na BRF e liderou o projeto de clima que colocou a SC Johnson no 3º lugar do GPTW Brasil."</p>
+<p><span class="tag visto">VISTO</span> No convite do Atlantic Hub (03/08), escrito pelo evento: "Implementou uma plataforma de aprendizagem para {{PROVA}} funcionários na BRF e liderou o projeto de clima que colocou a SC Johnson no 3º lugar do GPTW Brasil."</p>
 <p><span class="tag visto">VISTO</span> Nos seus posts, a credencial que aparece é "100 cursos em 15 meses" (3 posts).</p>
-<p><span class="tag visto">VISTO</span> O depoimento de aluna (22/09) mostra o elogio, e a tela do que ela fez fica de fora. 857 visualizações.</p>
-<p><span class="tag sup">SUPOSIÇÃO</span> "100 cursos" mostra quanto você estudou. "110 mil pessoas na BRF" mostra o que você já fez com gente real. A segunda sustenta melhor o "eu traduzo".</p>
+<p><span class="tag visto">VISTO</span> O depoimento de aluna (22/09) mostra o elogio, e a tela do que ela fez fica de fora. {{MEDIANA_VENDA}} visualizações.</p>
+<p><span class="tag sup">SUPOSIÇÃO</span> "100 cursos" mostra quanto você estudou. "{{PROVA}} pessoas na BRF" mostra o que você já fez com gente real. A segunda sustenta melhor o "eu traduzo".</p>
 </div></div>
 
 <div class="win acao"><div class="bar"><i></i><i></i><i></i><span>08 · O QUE FAZER ESTA SEMANA</span></div><div class="in">
@@ -143,13 +144,13 @@ a{color:var(--azul)}
 <p><b>Bio</b></p>
 <ul><li>Nome: "Monique Wasserman | IA na prática" (sobrenome pra quem te viu em palestra).</li>
 <li>Dizer pra quem: quem quer usar IA no dia a dia e trava.</li>
-<li>Uma prova: "15 anos levando tecnologia pra 110 mil pessoas em empresas".</li></ul>
+<li>Uma prova: "15 anos levando tecnologia pra {{PROVA}} pessoas em empresas".</li></ul>
 <p><b>3 posts</b></p>
-<ol><li><b>A continuação do post de 153 mil:</b> "Meu pai organizou a vida no Claude. Agora os exames." Responde o pedido do comentário, mostrando a tela.</li>
+<ol><li><b>A continuação do post de {{VIEWS_2}}:</b> "Meu pai organizou a vida no Claude. Agora os exames." Responde o pedido do comentário, mostrando a tela.</li>
 <li><b>A objeção que apareceu:</b> "Posso colocar meu exame no Claude? O que eu faço e o que eu nunca faço." Responde o comentário da privacidade com o seu jeito de ensinar.</li>
 <li><b>Uma dica que termina na IA:</b> o formato das dicas de Mac, com o final "e o Claude faz isso por você assim". Leva quem chegou pela dica até o assunto que você vende.</li></ol>
 <p><b>Pausa</b></p>
-<ul><li>Os reels de venda sem tela ("comenta CLAUDE" sozinho). São 18, com mediana de 857. A venda passa a ir no fim dos posts de IA na vida real, do jeito que foi no de 153 mil.</li></ul>
+<ul><li>Os reels de venda sem tela ("comenta CLAUDE" sozinho). São 18, com mediana de {{MEDIANA_VENDA}}. A venda passa a ir no fim dos posts de IA na vida real, do jeito que foi no de {{VIEWS_2}}.</li></ul>
 </div></div>
 
 <p class="rod">Tradução do seu Instagram · agente de marketing · Agentes na Prática · Monique Tecnologia. Números públicos lidos em 29/09/2026; posts recentes ainda estão acumulando visualizações.</p>

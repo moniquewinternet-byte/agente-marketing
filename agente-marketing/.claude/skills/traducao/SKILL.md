@@ -48,7 +48,9 @@ Cada afirmação leva uma etiqueta: VISTO (está no perfil) ou SUPOSIÇÃO (leit
 8. **O que fazer esta semana:** bio (nome, pra quem, uma prova), 3 posts concretos tirados dos achados, 1 coisa pra pausar.
 
 ## Passo 4: entregue a página
-- Use `modelo.html` (nesta pasta) como modelo de visual e estrutura. Troque cores e fontes pelas da identidade visual dela, se houver skill ou arquivo de identidade.
+- Use `modelo.html` (nesta pasta) SÓ como modelo de visual e estrutura. Ele tem campos
+  {{assim}}: troque cada um pelos dados REAIS que você puxou do Apify. NUNCA publique os
+  números de exemplo do modelo. Troque cores e fontes pelas da identidade visual dela, se houver.
 - Salve em `pesquisa/traducao-<perfil>-<AAAA-MM-DD>.html` com a ferramenta de escrever arquivo (não pelo terminal, que quebra acento) e abra.
 - No chat, só o resumo: o achado principal e as 3 ações.
 
